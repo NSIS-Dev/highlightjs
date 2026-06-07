@@ -1,8 +1,8 @@
-# @nsis/highlight.js
+# @nsis/highlightjs
 
-[![License](https://img.shields.io/github/license/NSIS-Dev/highlight.js?style=for-the-badge)](LICENSE)
-[![Version: npm](https://img.shields.io/npm/v/@nsis/highlight.js?style=for-the-badge)](https://www.npmjs.org/package/@nsis/highlight.js)
-[![CI](https://img.shields.io/github/actions/workflow/status/NSIS-Dev/highlight.js/ci.yml?logo=nodedotjs&logoColor=white&style=for-the-badge)](https://github.com/NSIS-Dev/highlight.js/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/NSIS-Dev/highlightjs?style=for-the-badge)](LICENSE)
+[![Version: npm](https://img.shields.io/npm/v/@nsis/highlightjs?style=for-the-badge)](https://www.npmjs.org/package/@nsis/highlightjs)
+[![CI](https://img.shields.io/github/actions/workflow/status/NSIS-Dev/highlightjs/ci.yml?logo=nodedotjs&logoColor=white&style=for-the-badge)](https://github.com/NSIS-Dev/highlightjs/actions/workflows/ci.yml)
 
 Syntax definition for the NSIS language.
 
@@ -16,7 +16,7 @@ Syntax definition for the NSIS language.
 
 ```js
 import hljs from "highlight.js/lib/core";
-import nsis from "../../src/nsis.ts";
+import nsis from "nsis.mjs";
 
 hljs.registerLanguage("nsis", nsis);
 hljs.highlightAll();
