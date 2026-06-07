@@ -1,6 +1,6 @@
 {
 	"name": "@nsis/highlightjs",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "highlight.js syntax definition for the NSIS language",
 	"license": "BSD-3-Clause",
 	"repository": {
