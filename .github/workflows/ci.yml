@@ -3,7 +3,7 @@ name: "Run tests on NodeJS"
 on:
   push:
     paths:
-      - ".github/workflows/cu.yml"
+      - ".github/workflows/*"
       - "tests/**"
       - "src/**"
       - "package.json"
